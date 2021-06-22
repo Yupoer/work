@@ -18,7 +18,3 @@ class Planet:
     @staticmethod
     def spin(speed = '2000 miles per hour'):
         return f'The planet spins and spins at {speed}'
-
-naboo = Planet('Naboo',30000,8,'Naboo System')
-# print(Planet.spin())
-print(naboo.spin('a very high speed'))
